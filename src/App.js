@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Q1 from './question/Q1';
+import Q2 from './question/Q2';
+import Q3 from './question/Q3';
+import Q4 from './question/Q4';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Q1 />
+      {/* <Q2/> */}
+       {/* <Q3/> */}
+      {/* <Q4/> */}
     </div>
   );
 }
